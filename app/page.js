@@ -10,6 +10,10 @@ import { usePathname } from 'next/navigation';
 // import MediaCard from '@/components/MediaCard';
 export default function Home() {
   
+
+
+
+  
   return (
     <Box sx={{ display: 'flex' }}>
       <div>
