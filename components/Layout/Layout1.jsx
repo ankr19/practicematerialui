@@ -41,10 +41,10 @@ function Layout1(props) {
   const drawer = (
     <div>
       <Toolbar />
-      <Divider />
-      <List className="w-full">
+      {/* <Divider /> */}
+      <List>
         {["Inbox", "Starred", "Send email", "Drafts"].map((text, index) => (
-          <ListItem key={text} className="p-[0px] pb-[3px]">
+          <ListItem key={text}>
             <ListItemButton >
               <ListItemIcon>
                 {index % 2 === 0 ? <MdInbox size={20}/> : <MdEmail size={20} />}
@@ -53,7 +53,7 @@ function Layout1(props) {
           </ListItem>
         ))}
       </List>
-      <Divider />
+      {/* <Divider /> */}
       {/* <List>
           {['All mail', 'Trash', 'Spam'].map((text, index) => (
             <ListItem key={text} disablePadding>
