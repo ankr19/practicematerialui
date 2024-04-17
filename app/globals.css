@@ -4,5 +4,5 @@
 
 
 .temp_bg{
-    @apply bg-[#8EC5FC] h-full bg-gradient-to-br from-blue-300 to-purple-300;
+    @apply bg-[#8EC5FC] h-full bg-gradient-to-bl from-blue-300 to-purple-300;
 }

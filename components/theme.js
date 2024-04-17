@@ -12,9 +12,6 @@ const theme = createTheme({
   palette: {
     mode: 'light',
   },
-  typography: {
-    fontFamily: roboto.style.fontFamily,
-  },
   components: {
     MuiAlert: {
       styleOverrides: {
