@@ -42,7 +42,7 @@ function Layout3(props) {
   };
 
   const drawer = (
-    <div className="bg-[#8EC5FC] h-full">
+    <div className=" h-full">
       <Toolbar sx={{ backgroundColor: "white" }}>Image</Toolbar>
       <Divider sx={{ color: "black" }} />
       <List className="">
@@ -139,20 +139,6 @@ function Layout3(props) {
       >
         <Toolbar />
         <Typography component={"div"}>
-          linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100% Lorem ipsum dolor
-          sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua. Rhoncus dolor purus non
-          enim praesent elementum facilisis leo vel. Risus at ultrices mi tempus
-          imperdiet. Semper risus in hendrerit gravida rutrum quisque non
-          tellus. Convallis convallis tellus id interdum velit laoreet id donec
-          ultrices. Odio morbi quis commodo odio aenean sed adipiscing. Amet
-          nisl suscipit adipiscing bibendum est ultricies integer quis. Cursus
-          euismod quis viverra nibh cras. Metus vulputate eu scelerisque felis
-          imperdiet proin fermentum leo. Mauris commodo quis imperdiet massa
-          tincidunt. Cras tincidunt lobortis feugiat vivamus at augue. At augue
-          eget arcu dictum varius duis at consectetur lorem. Velit sed
-          ullamcorper morbi tincidunt. Lorem donec massa sapien faucibus et
-          molestie ac.
         </Typography>
         <Typography component={"div"}>
           <EnhancedTable/>
