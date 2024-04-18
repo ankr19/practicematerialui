@@ -19,7 +19,7 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import EnhancedTable from "../EnhancedTable";
 
-const drawerWidth = 240;
+const drawerWidth = 90;
 
 function Layout3(props) {
   const { window } = props;
@@ -42,17 +42,16 @@ function Layout3(props) {
   };
 
   const drawer = (
-    <div className=" h-full">
+    <div className="h-full p-0 m-0">
       <Toolbar sx={{ backgroundColor: "white" }}>Image</Toolbar>
       <Divider sx={{ color: "black" }} />
-      <List className="">
-        {["Inbox", "Starred", "Send email", "Drafts"].map((text, index) => (
-          <ListItem key={text} className="">
-            <ListItemButton>
-              <ListItemIcon sx={{ color: "black" }}>
+      <List className="p-[0px] m-[0px] " >
+        {["Inbox", "Starred", "Send", "Drafts"].map((text, index) => (
+          <ListItem key={text} className="p-[0px] m-[0px] bg-green-500">
+            <ListItemButton className="">
+              <ListItemIcon sx={{ color: "black" }} >
                 {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
               </ListItemIcon>
-              <ListItemText primary={text} sx={{ color: "black" }} />
             </ListItemButton>
           </ListItem>
         ))}
