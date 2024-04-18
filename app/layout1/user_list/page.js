@@ -1,3 +1,4 @@
+import EnhancedTable from '@/components/EnhancedTable'
 import Testing from '@/components/Testing'
 import React from 'react'
 export const metadata = {
@@ -6,7 +7,7 @@ export const metadata = {
 const Page = () => {
   return (
     <div>
-      <Testing/>
+      <EnhancedTable />
     </div>
   )
 }

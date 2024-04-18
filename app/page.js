@@ -7,6 +7,9 @@ export default function Home() {
   return (
     // <Layout2/>
     // <Layout3/>
-    <Layout4 />
+    // <Layout4 />
+    <>
+    Home
+    </>
   )
 }

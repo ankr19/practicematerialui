@@ -26,6 +26,7 @@ import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 const DRAWER_WIDTH = 240;
 import { usePathname } from "next/navigation";
+import Layout4 from "@/components/Layout/Layout4";
 
 const LINKS = [
   { text: "Home", href: "/", icon: HomeIcon },
@@ -47,7 +48,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        {children}
+        <>{children}</>
       </body>
     </html>
   );
